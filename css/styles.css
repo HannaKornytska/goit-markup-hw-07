@@ -17,9 +17,9 @@ body {
     line-height: 1.5;  
 }
 .container {
-    max-width: 1158px;
+    
     padding: 0 15px;
-    margin: 0 auto; 
+   
 }
 
 .list {
@@ -130,6 +130,7 @@ img {
     position: relative;
     color: var(--color-hover);
 }
+
 .current::after {
     position: absolute;
     display: block;
@@ -190,6 +191,7 @@ img {
 .contacts:not(:last-child) {
     margin-right: 40px;
 }
+
 /* ----------------------------------HERO */
 .section-hero {
     background-color: var(--color-second-text);  
