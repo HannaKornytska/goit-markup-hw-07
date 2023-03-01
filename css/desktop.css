@@ -1,6 +1,48 @@
 @media screen and (min-width:1200px) {
     .container {
-width: 1158px;
-
+max-width: 1158px;
     }
+    .site-nav {
+        display: flex;
+        margin-left: 76px;
+    }
+    .nav-header .logo {
+        padding-top: 24px;
+        padding-bottom: 28px;
+    }
+    .site-nav { 
+        margin-left: 76px;
+    }
+    
+    .site-nav .nav-list:not(:last-child) {
+        margin-right: 40px;
+    }
+    .address {
+        letter-spacing: 0.02em; 
+        font-size: 16px;
+        line-height: calc(24px / 16px);
+    }
+    .site-auth {
+        display: flex;
+        align-items: center; 
+    }
+    .letter {
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
+.phone {
+    color: var(--color-main-text);
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    transition: color var(--hover-transition);
+}
+.site-auth .phone:hover,
+.site-auth .phone:focus {
+    color: var(--color-hover);
+}
+.contacts:not(:last-child) {
+    margin-right: 40px;
+}
 }
