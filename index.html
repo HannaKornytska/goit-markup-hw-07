@@ -39,6 +39,11 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-open" class="js-open-menu">
+          <svg class="mobile-menu-open-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-gamburger-open"></use>
+          </svg>
+        </button>
         <address class="address">
           <ul class="site-auth list">
             <li class="contacts">
@@ -52,12 +57,35 @@
               >
             </li>
           </ul>
-        </address>
-        <button type="button" class="mobile-menu-open">
-          <svg class="mobile-menu-open-icon" width="32" height="22">
-            <use href="./images/icons.svg#icon-gamburger-open"></use>
-          </svg>
-        </button>
+        </address> 
+      </div>
+      <div class="mobile-menu" class="js-menu-container">
+        <div class="container mobaile-menu-container">
+          <button class="mobile-menu-close" class="js-close-menu">
+            <svg class="mobile-menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mobile-site-nav">
+            <li class="mobile-site-list list">
+              <a href="" class="mobile-nav-link link">Studio</a>
+            </li>
+            <li class="mobile-site-list list">
+              <a href="" class="mobile-nav-link link">Portfolio</a>
+            </li>
+            <li class="mobile-site-list list">
+              <a href="" class="mobile-nav-link link">Contacts</a>
+            </li>
+          </ul>
+          <ul class="mobile-site-auth list">
+            <li class="mobile-contacts">
+              <a href="tel:+110001111111" class="mobile-phone link">+11 (000) 111-11-11</a>
+            </li>
+            <li class="mobile-contacts">
+              <a href="mailto:info@devstudio.com" class="mobile-letter link">info@devstudio.com</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -493,5 +521,6 @@
     </div> -->
 
     <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
