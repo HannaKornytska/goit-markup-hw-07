@@ -92,6 +92,7 @@
         height: 24px;
         top: 24px;
         right: 16px;
+        margin-bottom: 24px;
         border-radius: 50%;
         border:1px solid rgba(0, 0, 0, 0.1); ;
         background: #E7E9FC;
@@ -99,22 +100,32 @@
     }
     .mobile-menu-container {
         position: relative;
-        
-        
-    }
-    .mobile-menu-wrap {
+        height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 40px;
+       
+
+        
+        
+       
+        
+        
     }
+    
     
     .mobile-site-nav {
         display: flex;
         flex-direction: column ;
         gap: 40px;
         
+        
+        
     }
     .mobile-site-list {
+       
     }
     
     .mobile-nav-link {
@@ -129,18 +140,41 @@
     }
    
     .mobile-site-auth {
-        margin-top: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        
+        
+        
     }
     .mobile-contacts {
     }
     .mobile-phone {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(40px / 36px);
+        color: #4D5AE5;
+        letter-spacing: 0.02em;
+       text-transform: capitalize;
     }
     .mobile-letter {
+        font-family: 'Roboto';
+        font-style: normal;
+         font-weight: 500;
+         font-size: 20px;
+         line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+
     }
     .mobile-site-list {
         display: flex;
+        max-width: 428px;
         gap: 56px;
-        align-items: flex-end;
+        justify-content: space-between;
+        
        
     }
     
