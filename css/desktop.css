@@ -20,7 +20,7 @@ max-width: 1158px;
     .address {
         letter-spacing: 0.02em; 
         font-size: 16px;
-        line-height: calc(24px / 16px);
+        line-height:1.5;
     }
     .site-auth {
         display: flex;
@@ -34,6 +34,7 @@ max-width: 1158px;
 .phone {
     color: var(--color-main-text);
     display: block;
+    margin: 0;
     padding-top: 24px;
     padding-bottom: 24px;
     transition: color var(--hover-transition);
@@ -45,4 +46,16 @@ max-width: 1158px;
 .contacts:not(:last-child) {
     margin-right: 40px;
 }
+.section-hero { 
+    background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+     url('../images/people-office.jpg');
+    
+}
+.section-title {
+    width: 496px;
+    margin-bottom: 48px;
+    
+}
+
 }
