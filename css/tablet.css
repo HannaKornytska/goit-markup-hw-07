@@ -3,6 +3,10 @@
         max-width: 766px;
 
     }
+    .header {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
     .main-header {
         display: flex;
         align-items: center;
@@ -24,18 +28,20 @@
         margin-right: 40px;
     }
     .site-nav .nav-link {
-        display: block;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        transition: color var(--hover-transition);
+        
+        
     
 }
 .site-nav .nav-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     color: var(--color-second-text);
     font-weight: 500; 
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;   
+    letter-spacing: 0.02em;  
+    transition: color var(--hover-transition); 
        
 }
 .site-nav .nav-link:hover,
@@ -98,5 +104,19 @@
     background-color: var(--color-hover);
     transition: color var(--hover-transition);
 }
-
+.section-hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+     url('../images/Dark-bg-table.jpg');
+  
+}
+.section-title {
+    color: var(--background-white-color);
+    width: 496px;
+    margin-bottom: 40px;
+    font-size: 56px;
+    line-height: 1.1;
+}
 }
