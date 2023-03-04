@@ -58,4 +58,11 @@ max-width: 1158px;
     
 }
 
+.modal {
+    width: 408px;
+    min-height: 584px;
+}
+.modal-checkbox {
+    margin-top: 16px;
+}
 }
