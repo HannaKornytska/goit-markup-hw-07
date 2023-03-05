@@ -153,6 +153,12 @@
 }
 .section-list-staff {
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+}
+.section-staff:not(:last-child) {
+    margin-bottom: 0; 
 }
 .card-list {
     text-align: center;
