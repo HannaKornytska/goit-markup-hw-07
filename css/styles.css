@@ -162,20 +162,10 @@ img {
     margin-right: 24px;
 } */
 /* -----------------------------------------CUSTOMERS*/
-/* .section-customers {
-    padding-top: 130px;
-    padding-bottom: 120px;
-} */
 
-/* .customers-title {
-    color: var(--color-second-text);
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: center;
-    letter-spacing: 0.02em;
-    margin-bottom: 72px;
-}
-.customers-logo {
+
+
+/* .customers-logo {
     display: flex;
     gap: 24px;
 }
@@ -200,7 +190,7 @@ img {
 .customers-link:focus {
     fill:var(--color-hover);
     border-color: var(--color-hover);
-} */
+}  */
 
 /*--------------------==----------------------FOOTER */
 
