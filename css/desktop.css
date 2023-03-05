@@ -57,12 +57,49 @@ max-width: 1158px;
     margin-bottom: 48px;
     
 }
-
 .modal {
     width: 408px;
     min-height: 584px;
 }
 .modal-checkbox {
     margin-top: 16px;
+}
+.section-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.component-title {
+    flex-wrap: nowrap;
+}
+.team-list {
+    width: calc((100% - 72px) / 4);
+    }
+.section-work {
+    display: block;
+    padding-bottom: 120px;
+    } 
+.items {
+    display:flex;   
+    }
+.work-item:not(:last-child) {
+    margin-right: 24px;
+    }
+.section-staff-block {
+    padding-top: 120px;
+    padding-bottom: 120px;
+     }
+.section-mob-staff {
+   
+}
+
+
+
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.section-hero{
+background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)), url('../images/people-office-desk-2x.png');
 }
 }
