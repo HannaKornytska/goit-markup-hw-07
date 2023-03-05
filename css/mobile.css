@@ -107,7 +107,6 @@
         margin-top: 32px;  
     }
    
-    
     .mobile-nav-link {
         font-family: 'Roboto';
         font-style: normal;
@@ -144,7 +143,6 @@
        text-transform: capitalize;
        transition: color var(--hover-transition);
     }
-
     .mobile-phone:hover,
     .mobile-phone:focus {
         color: var(--color-hover);
@@ -169,7 +167,6 @@
         gap: 56px;
         justify-content: space-between;
     }
-    
     .mobile-site-list-item {
         width: 40px;
         height: 40px;
@@ -183,14 +180,12 @@
         background: #4D5AE5;
         border-radius: 50%;
         transition: background-color var(--hover-transition);
-
     }
     .mobile-site-link:hover,
     .mobile-site-link:focus {
         background-color: var(--color-hover);
     }
     .section-hero {
-        
         background-color: var(--color-second-text);  
         padding-top: 112px;
         padding-bottom:108px;
@@ -205,6 +200,7 @@
         background-position: center;
         text-align: center;
     }
+
     .section-title {
         font-family: 'Roboto';
         font-style: normal;
@@ -483,7 +479,78 @@ textarea:hover {
 .team-picture {
     display: none;
 }
-
+.section-work {
+    display: none;
+} 
+.section-staff-block {
+    background-color:var(--color-second-white);
+    padding-top: 96px;
+    padding-bottom: 128px;  
+}
+.section-second-title-team { 
+    color:var(--color-second-text) ;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
+    }
+.section-mob-staff {
+    width:260px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.section-staff {
+    background-color: var(--background-white-color);  
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;   
+    }
+    .card-list {
+        text-align: center;
+        padding: 32px 14px; 
+    }
+.section-staff-name {
+    color:var(--color-second-text) ;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;   
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.section-desc {
+    letter-spacing: 0.02em; 
+    margin-bottom: 8px; 
+}
+.site-list {
+    display: flex;
+    gap: 24px;
+    justify-content:space-between;
+}
+.site-icon {
+    width: 40px;
+    height: 40px;   
+} 
+.site-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #4D5AE5;
+    border-radius: 50%;
+    transition: background-color var(--hover-transition); 
+} 
+.site-link:hover,
+.site-link:focus {
+    background-color: var(--color-hover);
+}
+.section-staff:not(:last-child) {
+    margin-bottom: 72px; 
+}
 
 
 @media screen and (min-width:320px)  and (max-width:427px) {
@@ -512,4 +579,14 @@ textarea:hover {
     .modal-title {
         font-size: 12px;
     }
+
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.section-hero{
+background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)), url('../images/Dark-bg-mb-2x.jpg');
+}
 }
