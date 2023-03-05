@@ -89,7 +89,11 @@ max-width: 1158px;
     padding-bottom: 120px;
      }
 .section-mob-staff {
-   
+   width: 1158px;
+}
+.section-customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
