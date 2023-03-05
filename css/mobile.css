@@ -551,6 +551,21 @@ textarea:hover {
 .section-staff:not(:last-child) {
     margin-bottom: 72px; 
 }
+.section-customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.customers-title {
+    color: var(--color-second-text);
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+.customers-logo {
+    display: flex;
+}
 
 
 @media screen and (min-width:320px)  and (max-width:427px) {
