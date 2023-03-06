@@ -99,7 +99,7 @@
         padding-top: 24px;
         padding-bottom: 40px;  
     } 
-    .mob-current {
+    .mobile-site-list .mob-current {
         color: #404BBF;
     }
     .mobile-site-nav {
@@ -140,7 +140,7 @@
         font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
-        color: #434455 ;
+        color: #4D5AE5;
         letter-spacing: 0.02em;
        text-transform: capitalize;
        transition: color var(--hover-transition);
