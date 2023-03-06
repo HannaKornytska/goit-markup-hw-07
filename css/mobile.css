@@ -99,7 +99,9 @@
         padding-top: 24px;
         padding-bottom: 40px;  
     } 
-    
+    .mob-current {
+        color: #404BBF;
+    }
     .mobile-site-nav {
         display: flex;
         flex-direction: column ;
