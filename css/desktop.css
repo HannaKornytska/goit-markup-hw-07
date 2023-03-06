@@ -129,6 +129,13 @@ max-width: 1158px;
     padding-left: 16px;
     padding-right: 16px;
 }
+.section-portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.button-list {
+    margin-bottom: 72px;
+ }
 
 
 }
