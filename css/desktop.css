@@ -2,34 +2,33 @@
     .container {
 max-width: 1158px;
     }
-    .site-nav {
-        display: flex;
-        margin-left: 76px;
+.site-nav {
+    display: flex;
+    margin-left: 76px;
     }
-    .nav-header .logo {
-        padding-top: 24px;
-        padding-bottom: 28px;
+.nav-header .logo {
+    padding-top: 24px;
+    padding-bottom: 28px;
     }
-    .site-nav { 
-        margin-left: 76px;
+.site-nav { 
+    margin-left: 76px;
+    } 
+.site-nav .nav-list:not(:last-child) {
+    margin-right: 40px;
     }
-    
-    .site-nav .nav-list:not(:last-child) {
-        margin-right: 40px;
+.address {
+    letter-spacing: 0.02em; 
+    font-size: 16px;
+    line-height:1.5;
     }
-    .address {
-        letter-spacing: 0.02em; 
-        font-size: 16px;
-        line-height:1.5;
+.site-auth {
+    display: flex;
+    align-items: center; 
     }
-    .site-auth {
-        display: flex;
-        align-items: center; 
-    }
-    .letter {
-        display: block;
-        padding-top: 24px;
-        padding-bottom: 24px;
+.letter {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .phone {
     color: var(--color-main-text);
@@ -49,13 +48,11 @@ max-width: 1158px;
 .section-hero { 
     background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
-     url('../images/people-office.jpg');
-    
+     url('../images/people-office.jpg');  
 }
 .section-title {
     width: 496px;
-    margin-bottom: 48px;
-    
+    margin-bottom: 48px; 
 }
 .modal {
     width: 408px;
@@ -109,9 +106,33 @@ max-width: 1158px;
     padding-top: 100px; 
     padding-bottom: 100px;    
     }
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.footer-subscribe {
+    margin-left: auto;
+    }
+
+.footer-section-up { 
+    margin-bottom: 0;
+    margin-right: 80px;
+}
+.footer-section-up {
+    gap: 120px;
+}
+.footer-section {
+    justify-content:center;
+}
+.footer .container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
 
 
 }
+
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
