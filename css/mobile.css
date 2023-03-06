@@ -73,7 +73,7 @@
     .mobile-menu.is-open {
         opacity: 1;
         visibility: visible;
-        pointer-events: none;
+        pointer-events: auto;
     }
     .mobile-menu-close {
         position: absolute;
