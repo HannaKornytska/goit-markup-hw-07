@@ -205,6 +205,21 @@
     display: flex;
     justify-content:flex-start;
 }
+.section-portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+.button-list {
+    flex-wrap: nowrap;
+    justify-content:center;
+    margin-bottom: 64px;
+ }
+ .button-list .second-button:not(:last-child) {
+    margin-right: 24px;
+}
+.section-site {
+    display: flex;
+}
     
 }
 @media (min-device-pixel-ratio: 2),
