@@ -136,8 +136,14 @@ max-width: 1158px;
 .button-list {
     margin-bottom: 72px;
  }
-
-
+ .section-site {
+    width: auto;
+    row-gap: 48px;
+       
+}
+.item {
+    flex-basis: calc((100% - 2 * 24px) / 3);
+}
 }
 
 @media (min-device-pixel-ratio: 2),
