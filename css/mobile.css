@@ -190,7 +190,7 @@
     .section-hero {
         background-color: var(--color-second-text);  
         padding-top: 112px;
-        padding-bottom:108px;
+        padding-bottom: 112px;
         margin-left: auto;
         margin-right: auto;
         background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7),
@@ -252,20 +252,21 @@
     left: 0;
     width: 100%;
     height:100%;
+    overflow-y:auto ;
     background-color:rgba(46, 47, 66, 0.4);
     transition: visibility var(--hover-transition),
     opacity var(--hover-transition);  
 }
 .modal {
     position:absolute;
-    padding-top: 72px ;
-    padding-left: 16px;
-    padding-right: 16px;
-    width: 392px;
+    padding: 72px 16px 24px 16px;
+   
+    max-width: 392px;
+    width: calc(100% - 32px);
     min-height: 586px;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    transform: translate(-50%, 0);
     opacity: 1; 
     background: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -499,9 +500,7 @@ textarea:hover {
     margin-bottom: 72px;
     }
 .section-mob-staff {
-    width:260px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width:296px;
     }
 .section-staff {
     background-color: var(--background-white-color);  
@@ -599,6 +598,10 @@ textarea:hover {
     padding-bottom: 96px;
     
 }
+.footer-section-up {
+    margin-bottom: 72px;
+
+}
 .footer-section {
     display: block;
 }
@@ -625,10 +628,10 @@ textarea:hover {
     height: 80px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 72px;
 }
 .footer-contact-title {
     display: block;
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -833,7 +836,7 @@ textarea:hover {
 
 
 
-@media screen and (min-width:320px)  and (max-width:427px) {
+@media screen and (max-width:427px) {
     .mobile-phone {
         font-family: 'Roboto';
         font-style: normal;
@@ -853,9 +856,7 @@ textarea:hover {
         font-size: 28px;
         line-height: 1.1;
     }
-    .modal {
-        max-width: 290px ;
-    }
+   
     .modal-title {
         font-size: 12px;
     }
