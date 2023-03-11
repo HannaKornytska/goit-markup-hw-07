@@ -61,6 +61,7 @@
         height: 100%;
         top: 0;
         left: 0;
+        
         z-index: 100;
         background-color: var(--background-white-color);
         opacity: 0;
@@ -95,9 +96,10 @@
         position: relative;
         height: 100%;
         display: flex;
+        overflow-y: auto;
         flex-direction: column;
         justify-content: space-between;
-        padding-top: 24px;
+        padding-top: 80px;
         padding-bottom: 40px;  
     } 
     .mobile-site-list .mob-current {
@@ -107,7 +109,7 @@
         display: flex;
         flex-direction: column ;
         gap: 40px;
-        margin-top: 32px;  
+          
     }
    
     .mobile-nav-link {
@@ -841,7 +843,7 @@ textarea:hover {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 28px;
+        font-size: 20px;
         line-height: 1.4;
         color: #404BBF; 
         letter-spacing: 0.02em;
@@ -849,7 +851,7 @@ textarea:hover {
     }
     .mobile-site-list-wrap {
         max-width: 320px;
-        gap: 40px;
+        gap: 20px;
         }
     .section-title {
         width: 250px;
