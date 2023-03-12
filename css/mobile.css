@@ -801,7 +801,7 @@ textarea:hover {
     height: 100%;
     padding: 40px 32px 164px 32px;
     background-color: var(--color-accent);
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition: transform var(--hover-transition);       
 }
 .link-card:hover .overlay, .link-card:focus .overlay {
